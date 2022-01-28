@@ -1,0 +1,113 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --verde-escuro:#678060;
+  --verde-forte:#4A8039;
+  --verde-neutro:#68b450;
+  --verde-lima:#aeff95;
+  --verde-claro:#CEFFBF;
+}
+
+/*Formatações genéricas*/
+
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f6f6f6;
+}
+
+p{
+  width: 350px;
+  margin: auto;
+  font-size: 1.3em;
+  text-align: center;
+  line-height: 1.5em;
+  color: black;
+}
+
+a{
+  text-decoration: none;
+  color: var(--verde-claro);
+}
+
+a:hover, li:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/*formatando o header e nav*/
+
+nav{
+  background-color: var(--verde-neutro);
+}
+
+nav ul{
+  display: flex;
+  list-style: none;
+
+}
+
+nav li{
+  padding: 10px;
+  font-size: max(1.2em, 1.5vw);
+  margin: 0 10px;
+  color: var(--verde-claro);
+}
+
+header{
+  background: linear-gradient(to bottom, var(--verde-neutro), var(--verde-forte));
+  height: 60px;
+  
+}
+
+header h1{
+  font-size:5em;
+  display: inline-block;
+  background-color: var(--verde-lima);
+  border-radius: 10px;
+  padding: 5px;
+  color: var(--verde-escuro);
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.3);
+}
+
+/*conteúdo*/
+
+.calculadora{
+  background-color: #555;
+  width: 350px;
+  height: 400px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 20px;
+}
+
+.marge{
+  margin-bottom: 60px;
+}
+
+h2{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 2.5em;
+  color: var(--verde-neutro);
+}
+
+/*footer*/
+
+footer{
+  background: linear-gradient(to bottom, var(--verde-neutro), var(--verde-forte));
+  height: 25vh;
+}
+
+footer p{
+  text-align: center;
+  color: var(--verde-claro);
+}
+
+footer #rodape{
+  padding-top: 50px;
+}
