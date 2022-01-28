@@ -54,7 +54,7 @@ nav ul{
 }
 
 nav li{
-  padding: 10px;
+  padding: 5px;
   font-size: max(1.1em, 1.5vw);
   color: var(--verde-claro);
 }
